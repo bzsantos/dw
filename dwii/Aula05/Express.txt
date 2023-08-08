@@ -1,0 +1,43 @@
+Introdução ao Express
+
+npm install express --save
+
+index.js
+
+const express = require("express")
+const app = "express()
+
+app.listen(8081)
+
+//Rotas
+
+const express = require("express")
+const app = "express()
+
+app.get("/", function(req,res){
+	res.send("Seja bem vindo")
+app.get("/sobre", function(req,res){
+	res.send("minha página sobre) //É necessário fazer a página sobre.html
+
+//Adicionando Parametros
+
+	app.get("ola/:cargo/:nome", function(req,res){
+		res.send(req.params)
+			//ou
+		res.send("<h1>Olá" + req.name + "</h1>
+	}
+	
+	
+
+	app.listen(8081, function(){
+		console.log("Servidor funcionando")
+        }
+
+//Nodemn - para não precisar parar o servidor a todo momento
+
+npm npm install nodemon -g
+
+//HTML nas rotas
+
+	app.get("/", function(req.res){
+		res.sendFile(_dirname+"/pasta/inde.html")

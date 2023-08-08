@@ -1,0 +1,29 @@
+1. Introdulção a modularização
+
+2. Fazendo classes separadas com funções com contas aritméticas
+
+	atribuíndo valor de função em variável
+
+//soma.js
+
+const mais = function(n1,n2) {
+      return n1+n2
+}
+
+module.exports = mais
+
+//sub.js
+
+const sub = function(n1,n2) {
+      return n1+n2
+}
+
+module.exports = sub
+
+//calc
+
+const soma = require("./mais")
+const subt = require("./sub")
+
+console.log(soma(2,3))
+console.log(subt(2,2))

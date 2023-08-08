@@ -1,0 +1,28 @@
+Back-end (Requisições)
+
+Node possui o modulo HTTP de modo limitado, porém, utilizaremos um framework nas próximas lições que é o Express
+
+1- Protocolo HTTP
+
+//app.js
+
+	var http = require('http')
+
+	http.createServer().listen(8081)
+	
+	console.log("O servidor está funcionando")
+
+//É so testar no navegador http://localhost:8081
+
+
+//Atualizando app.js 
+
+	var http = require('http')
+
+	http.createServer(function(req,res) {
+		res.end("Olá")
+        }).listen(8081)
+
+	console.log("O servidor está funcionando")
+
+//Caso estiver no terminar para sair com Ctrl + C

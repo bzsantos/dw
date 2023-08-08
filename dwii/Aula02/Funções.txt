@@ -1,0 +1,23 @@
+1. Introdução a funções simples com e sem retorno
+
+Exemplo:
+
+let a1 = 3
+let a2 = 3
+
+  function soma(){
+	comsole.log(a1+a2)
+  }
+
+  function soma(){
+ 	return a1 + a2 
+  }
+
+2. Funções de sobreposição (override)
+
+  function soma(a1,a2){
+ 	return a1 + a2 
+  }
+
+  soma(2,3)
+

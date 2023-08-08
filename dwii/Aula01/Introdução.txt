@@ -1,0 +1,20 @@
+1. Introdução ao JavaScript
+	Histórico
+	Motor V8
+	Linguagem Front-End
+
+2. Tipos de variáveis: 
+
+Definição:
+- var:
+- let:
+- const
+
+Relembrando condição if e os laços(for, while, do whie e switch case)
+
+3. Instalando Visual Studio Code 
+	Configurando plugins: coderunning
+
+4. Instalando NodeJS
+	Verificando no terminal seu funcionamento
+		node --version
